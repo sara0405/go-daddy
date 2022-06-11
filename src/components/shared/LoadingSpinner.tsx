@@ -30,6 +30,6 @@ const Container = styled.div`
 
 export const LoadingSpinner = () => (
   <Container>
-    <Spinner />
+    <Spinner aria-busy="true" aria-label="Loading" role="status" />
   </Container>
 );

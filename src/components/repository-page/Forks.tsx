@@ -32,7 +32,7 @@ export const Forks: FC<ForksProps> = ({ url }) => {
     return (
       <Card>
         <CardTitle>Forks</CardTitle>
-        {forkRows}
+        {forkRows.length ? forkRows : <CardRow>No forks</CardRow>}
       </Card>
     );
   }
