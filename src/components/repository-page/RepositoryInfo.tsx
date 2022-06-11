@@ -1,13 +1,14 @@
-import { useRepository } from "../../hooks";
 import { useParams } from "react-router-dom";
-import { LoadingSpinner } from "../shared/LoadingSpinner";
-import { Languages } from "./Languages";
-import { Issues } from "./Issues";
-import { Forks } from "./Forks";
 import styled from "styled-components";
-import { WatchingCount } from "./WatchingCount";
-import { ExternalLink } from "../shared/ExternalLink";
+
+import { useRepository } from "../../hooks";
 import { ErrorMessage } from "../shared/ErrorMessage";
+import { ExternalLink } from "../shared/ExternalLink";
+import { LoadingSpinner } from "../shared/LoadingSpinner";
+import { Forks } from "./Forks";
+import { Issues } from "./Issues";
+import { Languages } from "./Languages";
+import { WatchingCount } from "./WatchingCount";
 
 const Container = styled.div`
   display: flex;

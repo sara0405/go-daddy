@@ -1,8 +1,9 @@
 import { FC } from "react";
-import { RepositoryCard } from "./RepositoryCard";
+
 import { useRepositories } from "../../hooks";
-import { LoadingSpinner } from "../shared/LoadingSpinner";
 import { ErrorMessage } from "../shared/ErrorMessage";
+import { LoadingSpinner } from "../shared/LoadingSpinner";
+import { RepositoryCard } from "./RepositoryCard";
 
 export const RepositoryList: FC = () => {
   const { isLoading, repositories } = useRepositories();

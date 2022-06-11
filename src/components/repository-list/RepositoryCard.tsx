@@ -1,7 +1,9 @@
 import { FC } from "react";
-import { Repository } from "../../types";
-import styled from "styled-components";
+
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+import { Repository } from "../../types";
 import { Card, CardTitle } from "../shared/Card";
 
 interface RepositoryCardProps {

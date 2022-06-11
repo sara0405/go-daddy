@@ -1,9 +1,10 @@
 import { FC } from "react";
+
 import { useRepoForks } from "../../hooks";
 import { Card, CardRow, CardTitle } from "../shared/Card";
 import { ErrorMessage } from "../shared/ErrorMessage";
-import { LoadingSpinner } from "../shared/LoadingSpinner";
 import { ExternalLink } from "../shared/ExternalLink";
+import { LoadingSpinner } from "../shared/LoadingSpinner";
 
 interface ForksProps {
   url: string;

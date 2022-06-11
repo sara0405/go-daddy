@@ -1,6 +1,8 @@
-import link from "../../icons/external-link.png";
 import { FC } from "react";
+
 import styled from "styled-components";
+
+import link from "../../icons/external-link.png";
 
 interface LinkProps {
   url: string;

@@ -1,6 +1,8 @@
-import eye from "../../icons/search.png";
 import { FC } from "react";
+
 import styled from "styled-components";
+
+import eye from "../../icons/search.png";
 
 interface WatchingCountProps {
   count: number;
