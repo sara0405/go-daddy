@@ -1,4 +1,4 @@
-# Go Daddy Assignment
+# GoDaddy Assignment
 
 ## How to run the app
 
